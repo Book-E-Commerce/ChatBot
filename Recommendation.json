@@ -1,0 +1,157 @@
+{
+  "id": "c821b178-92cc-4074-81bb-6095191df997",
+  "name": "Recommendation",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": [
+            "Here is our popular book lists",
+            "Here our recommendation",
+            "This is our popular book recommendation"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "ad0690cc-8a01-4407-989e-ea6f4283edaa",
+      "data": [
+        {
+          "text": "Give me your best books",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "fd362ccb-6d4f-4c4d-8d61-2c79e229fc0a",
+      "data": [
+        {
+          "text": "popular books",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "444829a8-4583-421a-b7c4-755976ddd1c9",
+      "data": [
+        {
+          "text": "recommend me books",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "46105c9c-5fa2-41c4-9e1d-e4b4789f3c83",
+      "data": [
+        {
+          "text": "Recommendation",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "887f0053-b025-4e6a-8937-cedf41ea776f",
+      "data": [
+        {
+          "text": "Top books",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "573877b6-ec59-4c0a-ae2b-1461293714db",
+      "data": [
+        {
+          "text": "list book popular",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "c5b7ddca-a620-42c0-bb20-9e84def94a1f",
+      "data": [
+        {
+          "text": "what are popular books ?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "f545b53f-dd26-4087-aa7d-134619cfbffa",
+      "data": [
+        {
+          "text": "what is your recommendation ?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "43c38b35-1bcd-4ddb-89da-8adb976c9025",
+      "data": [
+        {
+          "text": "Get Book recommendation",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}

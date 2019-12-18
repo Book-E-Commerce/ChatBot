@@ -1,0 +1,162 @@
+{
+  "id": "56b6e63d-36c9-44a3-b8a2-f24865f71372",
+  "name": "Help",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "Recommendation"
+            },
+            {
+              "title": "Search Author"
+            },
+            {
+              "title": "Search Title"
+            },
+            {
+              "title": "Search Category"
+            },
+            {
+              "title": "List Category"
+            },
+            {
+              "title": "Idle Conversation"
+            },
+            {
+              "title": "Surprise me !"
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "condition": "",
+          "speech": [
+            "How can I help you ?",
+            "I can lend you a hand",
+            "What are you looking for ?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "7eaff9c3-863d-4f40-8026-af2f79c60feb",
+      "data": [
+        {
+          "text": "command",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "b2eb5850-a755-4d6f-be99-827379826bcd",
+      "data": [
+        {
+          "text": "menu",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "cb3e4020-6464-46fe-a453-b6817321ed64",
+      "data": [
+        {
+          "text": "provide me your assistance",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d8066ab1-5221-45d6-b6e4-08abad4dcf6d",
+      "data": [
+        {
+          "text": "can you help me ?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "16949c21-3c96-46cc-8c43-d8977038f40c",
+      "data": [
+        {
+          "text": "i need your assistance",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "6ab633a3-ec11-4422-ac6f-02a0437d9e6a",
+      "data": [
+        {
+          "text": "help",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "a8d8021e-407c-46fc-a871-24fc35ece236",
+      "data": [
+        {
+          "text": "I need help",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}

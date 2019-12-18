@@ -1,0 +1,186 @@
+{
+  "id": "5043d09f-43b3-4992-9a82-63f2ea5aa290",
+  "name": "SearchAuthorBook",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "29b32bcf-7153-4470-9b95-7720c8fd70cb",
+          "required": true,
+          "dataType": "@author",
+          "name": "author",
+          "value": "$author",
+          "prompts": [
+            "What is the book's author name ?",
+            "Who is the writer ?",
+            "Please input the author name"
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "8ecf7f28-5225-4043-8383-f9f0dd86dd85",
+      "data": [
+        {
+          "text": "Do you have any book written by ",
+          "userDefined": false
+        },
+        {
+          "text": "Dan Brown",
+          "alias": "author",
+          "meta": "@author",
+          "userDefined": false
+        },
+        {
+          "text": " ?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "cf60a64a-a1ae-46f6-ad94-2017e6ad93a8",
+      "data": [
+        {
+          "text": "Please help me to find a book written by ",
+          "userDefined": false
+        },
+        {
+          "text": "raditya dika",
+          "alias": "author",
+          "meta": "@author",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "c67ce28c-28f3-4284-9840-5756c0d22e8a",
+      "data": [
+        {
+          "text": "I'm looking for a book written by ",
+          "userDefined": false
+        },
+        {
+          "text": "rick riordan",
+          "alias": "author",
+          "meta": "@author",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "23c089e5-5adb-41e4-9fe9-7a034f1dc8f9",
+      "data": [
+        {
+          "text": "find book with author ",
+          "userDefined": false
+        },
+        {
+          "text": "harper lee",
+          "alias": "author",
+          "meta": "@author",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "8af61c46-1411-4de0-8f4e-f5df24de821f",
+      "data": [
+        {
+          "text": "auhtor name",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d1f073c1-e077-4477-98aa-30e634066eb6",
+      "data": [
+        {
+          "text": "book with writer",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "42b4246d-f449-4a34-be38-e609c002042b",
+      "data": [
+        {
+          "text": "book with author",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "f16d25dc-0e97-48b2-81da-4261775d3b0a",
+      "data": [
+        {
+          "text": "Search author",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}

@@ -1,0 +1,97 @@
+{
+  "id": "125aa5cf-be94-4a85-ac34-a6382b60a021",
+  "name": "mood",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "happy",
+      "synonyms": [
+        "happy",
+        "joyful",
+        "eager",
+        "glad",
+        "merry",
+        "delighted",
+        "cheerful",
+        "pleasant",
+        "I'm feeling great today",
+        "My mood is bright as sunlight !",
+        "I'm good",
+        "amazing",
+        "awesome",
+        "good",
+        "great",
+        "nice"
+      ]
+    },
+    {
+      "value": "sad",
+      "synonyms": [
+        "sad",
+        "bitter",
+        "dismal",
+        "heartbroken",
+        "melancholy",
+        "sorry",
+        "wistful",
+        "somber",
+        "I'm feeling bad",
+        "I have a bad day",
+        "bad",
+        "depressed"
+      ]
+    },
+    {
+      "value": "calm",
+      "synonyms": [
+        "calm",
+        "cool",
+        "mild",
+        "slow",
+        "smooth",
+        "tranquil",
+        "serene",
+        "harmonious",
+        "so - so",
+        "I'm feeling slow-paced",
+        "fine",
+        "normal",
+        "okay",
+        "bored"
+      ]
+    },
+    {
+      "value": "angry",
+      "synonyms": [
+        "angry",
+        "enraged",
+        "furious",
+        "heated",
+        "irritated",
+        "offended",
+        "outraged",
+        "resentful",
+        "not good"
+      ]
+    },
+    {
+      "value": "disappointed",
+      "synonyms": [
+        "beaten",
+        "dissatisfied",
+        "upset",
+        "distressed",
+        "down",
+        "foiled",
+        "frustrated",
+        "thwarted",
+        "discouraged",
+        "dissapointed"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true,
+  "allowFuzzyExtraction": true,
+  "isRegexp": false
+}

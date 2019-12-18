@@ -1,0 +1,183 @@
+{
+  "id": "806bcc9f-551f-4918-8447-1530f7a14936",
+  "name": "Thank you respond",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "condition": "",
+          "image": {
+            "url": "https://static.wixstatic.com/media/5f9907_c1b6e002a63c49cfaf130e606a846b58~mv2.gif/v1/fit/w_300,h_300,al_c,q_80/file.gif",
+            "accessibilityText": "AltGoodbye"
+          },
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "condition": "",
+          "speech": [
+            "Thank you for your visit on our website",
+            "Have a nice day !",
+            "Serving you is our pleasure !",
+            "You're welcome !"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "13ecee7f-a3ec-47d8-bedb-46be1e61b754",
+      "data": [
+        {
+          "text": "good works !",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d05d6048-9d98-46d1-96c4-7f8ab3893fb9",
+      "data": [
+        {
+          "text": "Have a nice day !",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "f4561787-5606-45fb-aa29-7f5a4d30cdb6",
+      "data": [
+        {
+          "text": "thank for providing assistance",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "9d42426b-db1b-4e10-9d0b-2799545c4b64",
+      "data": [
+        {
+          "text": "gracias",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "fba7804b-fa11-43d9-b6d9-fe9dce3dd926",
+      "data": [
+        {
+          "text": "i'm done",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "58bb0274-357e-4268-a9f6-d8a5407f1e93",
+      "data": [
+        {
+          "text": "i don't have any question",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "224edae4-00b2-4047-9275-ce2291d6f46d",
+      "data": [
+        {
+          "text": "i'm finished",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "38984988-6492-4ae6-85ab-e63515e3b2dd",
+      "data": [
+        {
+          "text": "thank you for your help",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d52d3c97-272e-410d-a1bb-82f34df58a9c",
+      "data": [
+        {
+          "text": "thanks",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "9b6b45c6-846b-420a-8fdd-8d4b7dd61a72",
+      "data": [
+        {
+          "text": "thank you",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}

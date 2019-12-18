@@ -1,0 +1,216 @@
+{
+  "id": "d4a1366d-d8d9-4a89-9bb1-5bcb34f9d299",
+  "name": "SearchTitleBook",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "f20cd526-b510-4ef8-a55e-6631a1e03f22",
+          "required": true,
+          "dataType": "@title",
+          "name": "title",
+          "value": "$title",
+          "prompts": [
+            "What is the title of the book ?",
+            "What is the name of book?",
+            "Can you give me the name of the book?",
+            "What is the title of the book you looking for ?"
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "864f186a-bc69-48da-bf87-5e606a3f185b",
+      "data": [
+        {
+          "text": "I'm looking book with title ",
+          "userDefined": false
+        },
+        {
+          "text": "to kill a mockingbird",
+          "alias": "title",
+          "meta": "@title",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "c8c0b533-12b7-4de1-bb54-3d8c34d8c1f8",
+      "data": [
+        {
+          "text": "Help me finding book with name ",
+          "userDefined": false
+        },
+        {
+          "text": "percy jackson",
+          "alias": "title",
+          "meta": "@title",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "1ecf5922-7ec4-4b76-88be-8f1c7334e93a",
+      "data": [
+        {
+          "text": "Please help me find book with title ",
+          "userDefined": false
+        },
+        {
+          "text": "origin",
+          "alias": "title",
+          "meta": "@title",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "fc5e424b-5346-4fb5-ad87-8caafcc03e9d",
+      "data": [
+        {
+          "text": "I'm searching book with name ",
+          "userDefined": false
+        },
+        {
+          "text": "inferno",
+          "alias": "title",
+          "meta": "@title",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "caaf0596-770a-4338-8f0f-9f6695f57bd6",
+      "data": [
+        {
+          "text": "book name",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "a37abb48-f91f-43f4-9bf2-7aec37aa9ac4",
+      "data": [
+        {
+          "text": "search name",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "196424db-d41a-45cb-9691-381e33cb89cc",
+      "data": [
+        {
+          "text": "I'm looking for a book with title",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "9ae84b2a-5b84-4abe-a316-9a7f49ca9bf7",
+      "data": [
+        {
+          "text": "discover book with title",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "f202a6d3-6657-4ac6-bb80-0460a9cb3e4b",
+      "data": [
+        {
+          "text": "find book with title",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "1d623f1d-e44b-4b0b-8079-fdf5714ec127",
+      "data": [
+        {
+          "text": "Book title",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "bd111c47-7c70-437c-aba8-5b9672d18580",
+      "data": [
+        {
+          "text": "Search title",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}

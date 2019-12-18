@@ -1,0 +1,145 @@
+{
+  "id": "b8aa25fa-eb71-41a8-89a5-679346f33390",
+  "name": "Personality",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "9608d687-89a9-426a-b878-617b5aac21d0",
+          "required": true,
+          "dataType": "@mood",
+          "name": "mood",
+          "value": "$mood",
+          "prompts": [
+            "Are you okay ? You can tell me your day",
+            "How do you feel today ? You can talk to me",
+            "Hi friend,  how are you today ? Let me know you how you feel, and I can give some recommendations"
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "40b62664-2d4a-465e-abd3-34b036e273ce",
+      "data": [
+        {
+          "text": "Give me a surprise !",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "1b945294-0f1d-4dbc-bc6e-b9f3f86bc4f0",
+      "data": [
+        {
+          "text": "Surprise me",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "00d93090-e8ce-4884-b59e-a0d09b748a2a",
+      "data": [
+        {
+          "text": "Personality",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "f2b3a980-c6ab-49ae-9ac6-b7523f12d4f4",
+      "data": [
+        {
+          "text": "Try personality test",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "1566873c-925e-4517-8512-c32c25caab8d",
+      "data": [
+        {
+          "text": "Personality test",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "fd2d0ff0-cf7c-41f2-b7dd-c78ee9e0beba",
+      "data": [
+        {
+          "text": "I'm feeling moody today",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "af2a7345-a0aa-4019-acc4-b056f2900de3",
+      "data": [
+        {
+          "text": "Mood",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}

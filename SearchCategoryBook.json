@@ -1,0 +1,246 @@
+{
+  "id": "52c5b8ed-12cf-410c-b009-f74ee7d6937b",
+  "name": "SearchCategoryBook",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "8a5e7d1d-2bc4-4c4f-9090-962709dc68ed",
+          "required": true,
+          "dataType": "@category",
+          "name": "category",
+          "value": "$category",
+          "prompts": [
+            "What is the category of the books your looking for ?",
+            "Please input the category of the book",
+            "Please provide the tags of book"
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "638a3456-f042-497a-ba3a-e58c7e4df6e5",
+      "data": [
+        {
+          "text": "I'm looking some books that relate to ",
+          "userDefined": false
+        },
+        {
+          "text": "technology",
+          "alias": "category",
+          "meta": "@category",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "6fc0d412-5a55-4550-b50d-e4c448f840c0",
+      "data": [
+        {
+          "text": "I'm looking a book in genre ",
+          "userDefined": false
+        },
+        {
+          "text": "mystery",
+          "alias": "category",
+          "meta": "@category",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "7cdc5be2-3430-4033-b1e7-7f79db01467f",
+      "data": [
+        {
+          "text": "i'm searching books with tags ",
+          "userDefined": false
+        },
+        {
+          "text": "fiction",
+          "alias": "category",
+          "meta": "@category",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "e6d69a2c-59f0-44f3-8fa9-c72673dd2815",
+      "data": [
+        {
+          "text": "search tags",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "eaf90c7e-9e0f-4f58-ad24-9735da54261c",
+      "data": [
+        {
+          "text": "i'm searching books with tags",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ce70b6f2-25b5-47f0-a55e-60fcdd94790c",
+      "data": [
+        {
+          "text": "search book with type ",
+          "userDefined": false
+        },
+        {
+          "text": "fantasy",
+          "alias": "category",
+          "meta": "@category",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d4e72d4a-44ea-49cc-a707-d39f3e2b507d",
+      "data": [
+        {
+          "text": "find book with  class",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "f2501b63-fd63-4301-a0b5-26a3ab14cb0e",
+      "data": [
+        {
+          "text": "book contain category ",
+          "userDefined": false
+        },
+        {
+          "text": "biography",
+          "alias": "category",
+          "meta": "@category",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "1f94ee4c-7cb4-4786-90f0-1cabbdcc075d",
+      "data": [
+        {
+          "text": "I'm looking book with category ",
+          "userDefined": false
+        },
+        {
+          "text": "horror",
+          "alias": "category",
+          "meta": "@category",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "c7ca4e19-3433-4da1-a951-9a81a67cfd74",
+      "data": [
+        {
+          "text": "find books in category",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "658f8ebe-020e-4f9b-9489-dcf8f6d769e4",
+      "data": [
+        {
+          "text": "Search book by category",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "a8fee15b-8757-4400-a6ad-b35edbc3428d",
+      "data": [
+        {
+          "text": "Search Category",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}

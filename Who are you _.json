@@ -1,0 +1,66 @@
+{
+  "id": "2a2c8649-d59e-448d-859b-3534f60e41de",
+  "name": "Who are you ?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": [
+            "My name is Sarasvati, a ChatBot feature in HackBook",
+            "I am called Sarasvati by creators. My job is to guide user.",
+            "Hi, I am Sarasvati. Nice to meet you !"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "111d279c-f957-4d9a-9e7e-57222689d23b",
+      "data": [
+        {
+          "text": "What is your name ?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d681f851-fae9-4c05-af4e-374fcd467fd7",
+      "data": [
+        {
+          "text": "Who are you ?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}

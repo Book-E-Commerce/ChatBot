@@ -1,0 +1,97 @@
+{
+  "id": "975367fa-cadb-46a2-a648-2d7b6b30821a",
+  "name": "author",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Dan Brown",
+      "synonyms": [
+        "Dan Brown"
+      ]
+    },
+    {
+      "value": "J.K. Rowling",
+      "synonyms": [
+        "J.K. Rowling",
+        "J.K Rowling",
+        "Rowling",
+        "rowling"
+      ]
+    },
+    {
+      "value": "Stephen King",
+      "synonyms": [
+        "Stephen King"
+      ]
+    },
+    {
+      "value": "Rick Riordan",
+      "synonyms": [
+        "Rick Riordan",
+        "riordan",
+        "Riordan"
+      ]
+    },
+    {
+      "value": "Malcolm Gladwell",
+      "synonyms": [
+        "Malcolm Gladwell"
+      ]
+    },
+    {
+      "value": "Nora Robberts",
+      "synonyms": [
+        "Nora Robberts"
+      ]
+    },
+    {
+      "value": "Michelle Obama",
+      "synonyms": [
+        "Michelle Obama"
+      ]
+    },
+    {
+      "value": "J. R. R. Tolkien",
+      "synonyms": [
+        "J. R. R. Tolkien",
+        "Tolkien"
+      ]
+    },
+    {
+      "value": "Neil Gaiman",
+      "synonyms": [
+        "Neil Gaiman"
+      ]
+    },
+    {
+      "value": "Dean Koontz",
+      "synonyms": [
+        "Dean Koontz"
+      ]
+    },
+    {
+      "value": "Carloyn Brown",
+      "synonyms": [
+        "Carloyn Brown"
+      ]
+    },
+    {
+      "value": "Penelope",
+      "synonyms": [
+        "Penelope"
+      ]
+    },
+    {
+      "value": "Harper Lee",
+      "synonyms": [
+        "Harper Lee",
+        "harper lee",
+        "harper"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true,
+  "allowFuzzyExtraction": true,
+  "isRegexp": false
+}

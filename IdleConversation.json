@@ -1,0 +1,113 @@
+{
+  "id": "35cd4efc-707d-47c3-9c59-cbe13b7f136e",
+  "name": "IdleConversation",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "Who are you ?"
+            },
+            {
+              "title": "Who made you ?"
+            },
+            {
+              "title": "I'm lonely"
+            },
+            {
+              "title": "What's your purpose ?"
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "condition": "",
+          "speech": [
+            "What do you want to talk about ?",
+            "You can ask me anything !"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "837d10a1-ada8-4c57-b893-70ce2ca6757f",
+      "data": [
+        {
+          "text": "I have some question to ask",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "4a7e2dae-c8a1-4e8d-a38b-1d5bfd209dc9",
+      "data": [
+        {
+          "text": "Can I ask you few question ?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ec4fa059-1417-4299-9ce4-12f0a3dee409",
+      "data": [
+        {
+          "text": "I want to ask something",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "599702dd-5fff-4afa-9732-7db9cd8118ef",
+      "data": [
+        {
+          "text": "Idle Conversation",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}

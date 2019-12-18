@@ -1,0 +1,48 @@
+{
+  "id": "e6224321-040a-473f-a87d-15bb2ec140a0",
+  "name": "Default Fallback Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "condition": "",
+          "items": [
+            {
+              "textToSpeech": "Use Help to see our command list",
+              "ssml": "",
+              "displayText": ""
+            },
+            {
+              "textToSpeech": "You can use Command to see available menu",
+              "ssml": "",
+              "displayText": ""
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "userSays": [],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}

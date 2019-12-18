@@ -1,0 +1,299 @@
+{
+  "id": "ffd5fa33-55eb-4704-a18d-1e692031b892",
+  "name": "category",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Fiction",
+      "synonyms": [
+        "Fiction"
+      ]
+    },
+    {
+      "value": "Biography",
+      "synonyms": [
+        "Biography"
+      ]
+    },
+    {
+      "value": "Drama",
+      "synonyms": [
+        "Drama"
+      ]
+    },
+    {
+      "value": "Literatury Collection",
+      "synonyms": [
+        "Literatury Collection"
+      ]
+    },
+    {
+      "value": "History",
+      "synonyms": [
+        "History"
+      ]
+    },
+    {
+      "value": "Mystery",
+      "synonyms": [
+        "Mystery"
+      ]
+    },
+    {
+      "value": "Autobiography",
+      "synonyms": [
+        "Autobiography"
+      ]
+    },
+    {
+      "value": "Anti-Catholicism",
+      "synonyms": [
+        "Anti-Catholicism"
+      ]
+    },
+    {
+      "value": "Juvenile Fiction",
+      "synonyms": [
+        "Juvenile Fiction"
+      ]
+    },
+    {
+      "value": "Literary Criticism",
+      "synonyms": [
+        "Literary Criticism"
+      ]
+    },
+    {
+      "value": "Body, Mind & Spirit",
+      "synonyms": [
+        "Body, Mind & Spirit"
+      ]
+    },
+    {
+      "value": "Language Arts & Disciplines",
+      "synonyms": [
+        "Language Arts & Disciplines",
+        "Language Arts",
+        "Disciplines"
+      ]
+    },
+    {
+      "value": "Arts",
+      "synonyms": [
+        "Arts"
+      ]
+    },
+    {
+      "value": "Detective",
+      "synonyms": [
+        "Detective"
+      ]
+    },
+    {
+      "value": "Scottish",
+      "synonyms": [
+        "Scottish"
+      ]
+    },
+    {
+      "value": "Business & Economics",
+      "synonyms": [
+        "Business & Economics"
+      ]
+    },
+    {
+      "value": "Fathers and daughters in literature",
+      "synonyms": [
+        "Fathers and daughters in literature"
+      ]
+    },
+    {
+      "value": "Alabama",
+      "synonyms": [
+        "Alabama"
+      ]
+    },
+    {
+      "value": "Science",
+      "synonyms": [
+        "Science"
+      ]
+    },
+    {
+      "value": "Computers",
+      "synonyms": [
+        "Computers"
+      ]
+    },
+    {
+      "value": "Antiques & collectibles",
+      "synonyms": [
+        "Antiques & collectibles"
+      ]
+    },
+    {
+      "value": "Childrens",
+      "synonyms": [
+        "Childrens"
+      ]
+    },
+    {
+      "value": "Psychology",
+      "synonyms": [
+        "Psychology"
+      ]
+    },
+    {
+      "value": "Education",
+      "synonyms": [
+        "Education"
+      ]
+    },
+    {
+      "value": "Technology & Engineering",
+      "synonyms": [
+        "Technology & Engineering",
+        "Technology",
+        "Engineering"
+      ]
+    },
+    {
+      "value": "Law",
+      "synonyms": [
+        "Law"
+      ]
+    },
+    {
+      "value": "Social Science",
+      "synonyms": [
+        "Social Science"
+      ]
+    },
+    {
+      "value": "Law",
+      "synonyms": [
+        "Law"
+      ]
+    },
+    {
+      "value": "Reference",
+      "synonyms": [
+        "Reference"
+      ]
+    },
+    {
+      "value": "Philosophy",
+      "synonyms": [
+        "Philosophy"
+      ]
+    },
+    {
+      "value": "Medical",
+      "synonyms": [
+        "Medical"
+      ]
+    },
+    {
+      "value": "Political Science",
+      "synonyms": [
+        "Political Science"
+      ]
+    },
+    {
+      "value": "Food",
+      "synonyms": [
+        "Food"
+      ]
+    },
+    {
+      "value": "Agriculture",
+      "synonyms": [
+        "Agriculture"
+      ]
+    },
+    {
+      "value": "Diet",
+      "synonyms": [
+        "Diet"
+      ]
+    },
+    {
+      "value": "Architecture",
+      "synonyms": [
+        "Architecture"
+      ]
+    },
+    {
+      "value": "Mind",
+      "synonyms": [
+        "Mind"
+      ]
+    },
+    {
+      "value": "Family & Relationship",
+      "synonyms": [
+        "Family",
+        "Family & Relationship",
+        "FAMILY & RELATIONSHIP",
+        "RELATIONSHIP"
+      ]
+    },
+    {
+      "value": "Photography",
+      "synonyms": [
+        "Photography"
+      ]
+    },
+    {
+      "value": "Music",
+      "synonyms": [
+        "Music"
+      ]
+    },
+    {
+      "value": "Child rearing",
+      "synonyms": [
+        "Child rearing"
+      ]
+    },
+    {
+      "value": "Childrens",
+      "synonyms": [
+        "Children",
+        "children",
+        "child",
+        "African American children"
+      ]
+    },
+    {
+      "value": "Religion",
+      "synonyms": [
+        "Religion"
+      ]
+    },
+    {
+      "value": "Mathematics",
+      "synonyms": [
+        "Mathematics"
+      ]
+    },
+    {
+      "value": "Imperailism",
+      "synonyms": [
+        "Imperailism"
+      ]
+    },
+    {
+      "value": "Cooking",
+      "synonyms": [
+        "Cooking",
+        "cook",
+        "cooking"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true,
+  "allowFuzzyExtraction": true,
+  "isRegexp": false
+}

@@ -1,0 +1,85 @@
+{
+  "id": "28057bbf-cab3-4838-8402-2300ac347cd9",
+  "name": "I'm lonely",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Imlonely-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": [
+            "I can be your friend. What's your answer ?",
+            "You're not alone. Do you want to be friended with me ?",
+            "Me too. Can i be your friend ?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "1bc544d9-7dd0-4273-ab81-bcc5dd866b46",
+      "data": [
+        {
+          "text": "I'm isolated",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "089dbe3a-bff8-4f05-8583-b448effe6adf",
+      "data": [
+        {
+          "text": "I'm alone",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "c6e2d84b-5083-4761-a720-2cc123b2105c",
+      "data": [
+        {
+          "text": "I'm lonely",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}

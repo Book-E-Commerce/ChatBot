@@ -1,0 +1,65 @@
+{
+  "id": "a0ecd507-2298-4bd2-b891-af8f17ce2bba",
+  "name": "title",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "How To train dragon",
+      "synonyms": [
+        "How To train dragon"
+      ]
+    },
+    {
+      "value": "Inferno",
+      "synonyms": [
+        "Inferno"
+      ]
+    },
+    {
+      "value": "dragon",
+      "synonyms": [
+        "dragon"
+      ]
+    },
+    {
+      "value": "harry potter",
+      "synonyms": [
+        "harry potter"
+      ]
+    },
+    {
+      "value": "one piece",
+      "synonyms": [
+        "one piece"
+      ]
+    },
+    {
+      "value": "origin",
+      "synonyms": [
+        "origin"
+      ]
+    },
+    {
+      "value": "fifty shades of grey",
+      "synonyms": [
+        "fifty shades of grey"
+      ]
+    },
+    {
+      "value": "percy jackson",
+      "synonyms": [
+        "percy jackson"
+      ]
+    },
+    {
+      "value": "da vinci code",
+      "synonyms": [
+        "da vinci code"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true,
+  "allowFuzzyExtraction": true,
+  "isRegexp": false
+}
